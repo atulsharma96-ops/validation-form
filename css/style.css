@@ -1,0 +1,145 @@
+.min {
+    width: 30vw;
+    margin-top: 10vh;
+    margin-left: -16vw;
+    background-color: #efefef;
+    position: absolute;
+    min-height: 70vh;
+    max-height: auto;
+}
+
+#fname {
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 100%;
+}
+
+#fname:focus {
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+}
+
+#lname {
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 100%;
+}
+
+#lname:focus {
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+}
+
+#email {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+#email:focus {
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+}
+
+#mob {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+#mob:focus {
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+}
+
+#uname {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+#uname:focus {
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+}
+
+#pass {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 2px;
+
+}
+
+#pass:focus {
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 2px;
+}
+
+#pp {
+    line-height: 18px;
+}
+
+#ppp {
+    font-size: 14px;
+    line-height: 15px;
+    color: gray;
+}
+
+#mnmsg {
+    font-size: 14px;
+}
+
+#fnamemsg,
+#lnamemsg {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#emailmsg,
+#unamemsg {
+    font-size: 14px;
+}
+
+#tooglepass {
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+#divl {
+    height: 100vh;
+    width: 100%;
+    background:
+        linear-gradient(#ff0000bf),
+        url("https://static.vecteezy.com/system/resources/thumbnails/012/508/817/small_2x/business-people-group-at-office-free-photo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:576px) {
+    #divl {
+        height: 90vh;
+        width: 50%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .min {
+        width: 96%;
+        position: absolute;
+        margin-top: -80vh;
+        height: auto;
+        min-height: 40vh;
+        margin-left: -1vw;
+    }
+
+    #fname,
+    #lname {
+        width: 99.5%;
+    }
+}
